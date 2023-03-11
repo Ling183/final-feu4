@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://images.unsplash.com/photo-1535953267280-5fd672f9bfa3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.video-wrapper {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.video-link {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(120, 156, 96, 0.5);
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.recomendation {
+    text-align: center;
+}
