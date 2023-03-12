@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom';
 
-const postPage = () => {
+const PostPage = () => {
+    let params = useParams();
+    const [post, setPost] = useState(null);
+
+
   return (
-    <div>postPage</div>
+    <div>
+        <h1>{post.title}</h1>
+    </div>
   )
 }
 
-export default postPage
+export default PostPage
