@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import MainTitle from '../../components/MainTitle/MainTitle';
 
 const PostsPage = () => {
   const [posts, setPosts] = useState([])
@@ -13,10 +14,10 @@ const PostsPage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Posts</h1>
+    <div className='posts-wrapper'>
+      <MainTitle text='Posts' />
       {posts && (
-        <ul>
+        <ul >
           {posts.map((post, index) => <li key={index}><Link to={'/posts/' + post.id}>{post.title}</Link></li>)}
         </ul>
       )}
