@@ -1,0 +1,15 @@
+.albums-list {
+    list-style-type: square;
+    color: rgb(34, 124, 131);
+
+    li {
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+}
