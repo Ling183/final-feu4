@@ -1,0 +1,27 @@
+.posts-wrapper {
+    margin-top: 50px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+
+        .posts-element {
+            width: 33.3%;
+            height: 50px;
+
+            a {
+                color: white;
+                background-color: rgba(255, 255, 255, 0.4);
+                border-radius: 10px;
+                padding: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(241, 189, 90);
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,19 @@
+.albums-list {
+    list-style-type: square;
+    color: rgb(34, 124, 131);
+
+    li {
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: rgb(34, 124, 131);
+            }
+        }
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+}
