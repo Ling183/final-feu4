@@ -17,7 +17,7 @@ const PostPage = () => {
 
   return (
     <div>
-        <h2>{post.title}</h2>
+        <h1>{post.title}</h1>
         <p>{post.body}</p>
     </div>
   )
