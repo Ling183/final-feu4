@@ -6,6 +6,10 @@
         a {
             color: white;
             text-decoration: none;
+
+            &:hover {
+                color: rgb(34, 124, 131);
+            }
         }
 
         &::first-letter {
