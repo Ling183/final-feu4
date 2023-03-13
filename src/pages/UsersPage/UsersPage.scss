@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    gap: 300px;
+}
+
+.users-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 35%;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 5%;
+
+    .users-list {
+        list-style-type: none;
+
+        .users-elements a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            line-height: 1.9;
+
+        }
+    }
+}
+
+.img-wrapper {
+    display: flex;
+    margin-top: 180px;
+
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        opacity: 0.8;
+
+
+    }
+
+}

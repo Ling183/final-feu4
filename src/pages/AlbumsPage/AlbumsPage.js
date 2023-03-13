@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import MainTitle from '../../components/MainTitle/MainTitle';
 
 const AlbumsPage = () => {
   const [albums, setAlbum] = useState([])
@@ -13,8 +14,8 @@ const AlbumsPage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Albums</h1>
+    <div className='album-wrapper'>
+      <MainTitle text='Albums' />
       {albums && (
         <ul>
           {albums.map((album, index) => <li key={index}><Link to={'/albums/' + album.id}>{album.title}</Link></li>)}
